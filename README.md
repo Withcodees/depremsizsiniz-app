@@ -1,16 +1,8 @@
-# depremsizsiniz
+### depremsizsiniz
 
-A new Flutter project.
+Deprem alarm uygulaması
 
-## Getting Started
+### NOT:
 
-This project is a starting point for a Flutter application.
+##### Şuanki kodlar taslağın oluşması için karışık şekilde yazılmış olabilir. Zamanla kod iyiliştirmeleri yapılacaktır
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
