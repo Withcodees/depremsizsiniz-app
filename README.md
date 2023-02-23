@@ -1,0 +1,1 @@
+# depremsizsiniz-app
