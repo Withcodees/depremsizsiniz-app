@@ -197,7 +197,7 @@ class JeaDatas extends StatelessWidget {
                                   color: Colors.white70, size: 15),
                               const SizedBox(width: 5),
                               Text(
-                                "Kandilli Rasathanesi",
+                                "WithCodes RestAPI",
                                 style: GoogleFonts.poppins(
                                   color: Colors.white70,
                                   fontSize: 14,
@@ -212,16 +212,16 @@ class JeaDatas extends StatelessWidget {
                   ),
                 ],
               ),
-              const InkWell(
-                child: Padding(
-                  padding: EdgeInsets.all(15),
-                  child: Icon(
-                    Icons.arrow_forward_ios,
-                    color: Colors.white70,
-                    size: 25,
-                  ),
-                ),
-              )
+              // const InkWell(
+              //   child: Padding(
+              //     padding: EdgeInsets.all(15),
+              //     child: Icon(
+              //       Icons.arrow_forward_ios,
+              //       color: Colors.white70,
+              //       size: 25,
+              //     ),
+              //   ),
+              // )
             ],
           ),
         ],
