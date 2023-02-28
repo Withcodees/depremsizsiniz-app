@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple[100],
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple[200],
+        backgroundColor: Colors.deepPurple[300],
         title: const Text("Depremsizsiniz"),
         centerTitle: true,
         actions: [
