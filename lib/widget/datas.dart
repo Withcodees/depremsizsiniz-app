@@ -96,7 +96,7 @@ class JeaDatas extends StatelessWidget {
                                   color: Colors.white70, size: 15),
                               const SizedBox(width: 5),
                               Text(
-                                "Kandilli Rasathanesi",
+                                "WithCodes RestAPI",
                                 style: GoogleFonts.poppins(
                                   color: Colors.white70,
                                   fontSize: 16,

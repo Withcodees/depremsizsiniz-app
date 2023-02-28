@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:audioplayers/audioplayers.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -60,6 +61,7 @@ class _HomePageState extends State<HomePage> {
         "http://193.111.125.206:5000/"); // Ekran başladığında, Ixel'in API'ından verileri toparla.
   }
 
+  final audioPlayer = AudioPlayer();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,8 +72,11 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         actions: [
           IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.mail_outline_outlined),
+            onPressed: () async {
+              String url = "assets/uyari.mp3";
+              await audioPlayer.play(UrlSource(url));
+            },
+            icon: const Icon(Icons.sports),
           ),
           IconButton(
             onPressed: () {},
