@@ -1,4 +1,5 @@
 import 'package:depremsizsiniz/widget/datas.dart';
+import 'package:depremsizsiniz/widget/uyariDuduk.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -72,10 +73,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         actions: [
           IconButton(
-            onPressed: () async {
-              String url = "assets/uyari.mp3";
-              await audioPlayer.play(UrlSource(url));
-            },
+            onPressed: dudukFunc,
             icon: const Icon(Icons.sports),
           ),
           IconButton(
@@ -145,8 +143,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               myItem(Icons.medical_services_outlined, "Yardımlar"),
-              myItem(Icons.map, "Harita"),
-              myItem(Icons.settings, "Ayarlar"),
+              myItem(Icons.settings, "Deprem Çantam"),
               myItem(Icons.info, "İletişim"),
             ],
           ),
@@ -160,12 +157,8 @@ class _HomePageState extends State<HomePage> {
             text: '  Depremler',
           ),
           GButton(
-            icon: Icons.map_outlined,
-            text: '  Harita',
-          ),
-          GButton(
-            icon: Icons.av_timer_outlined,
-            text: '  Geçmiş',
+            icon: Icons.shopping_bag_outlined,
+            text: 'Deprem Çantası',
           ),
           GButton(
             icon: Icons.settings_outlined,
@@ -175,6 +168,8 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
+
+  void dudukFunc() => {Navigator.pushNamed(context, "uyariDuduk")};
 
   Widget myItem(IconData icon, String title) => ListTile(
         leading: Icon(icon),

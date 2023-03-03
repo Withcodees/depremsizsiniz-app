@@ -196,14 +196,14 @@ class JeaDatas extends StatelessWidget {
                               const FaIcon(FontAwesomeIcons.link,
                                   color: Colors.white70, size: 15),
                               const SizedBox(width: 5),
-                              Text(
-                                "WithCodes RestAPI",
-                                style: GoogleFonts.poppins(
-                                  color: Colors.white70,
-                                  fontSize: 14,
-                                  //fontWeight: FontWeight.bold,
-                                ),
-                              ),
+                              // Text(
+                              //   "WithCodes RestAPI",
+                              //   style: GoogleFonts.poppins(
+                              //     color: Colors.white70,
+                              //     fontSize: 14,
+                              //     fontWeight: FontWeight.bold,
+                              //   ),
+                              // ),
                             ],
                           ),
                         ],

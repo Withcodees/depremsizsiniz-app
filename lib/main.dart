@@ -1,4 +1,5 @@
 import 'package:depremsizsiniz/homePage.dart';
+import 'package:depremsizsiniz/widget/uyariDuduk.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -11,10 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Depremsizsiniz',
       home: HomePage(),
+      routes: {"uyariDuduk": (context) => UyariDuduk()},
     );
   }
 }
